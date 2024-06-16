@@ -10,6 +10,12 @@ using Liskov_Substitution.Abstraction;
 
 namespace Liskov_Substitution
 {
+    /*
+    1.Liskov Substitution Principle states that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
+    2. The Liskov Substitution Principle is closely related to the Open/Closed Principle.
+    3. a subclass can stand in for its superclass without causing problems in the program
+    4. It promotes the use of polymorphism in the code.
+     */
     class Program
     {
         static void Main(string[] args)
