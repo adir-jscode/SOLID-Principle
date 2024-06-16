@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Single_Responsibility
 {
+
+    /*
+         Class & modules should focus on a single task at a time
+     
+     */
     internal interface IUser
     {
         bool Login(string username, string password);
