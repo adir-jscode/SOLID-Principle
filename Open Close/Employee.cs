@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Open_Close
 {
+    /*
+      1. Open for extension & Close for modification
+      2. Software entities should be open for extension, but closed for modification.
+      3. The "Open/Closed Principle" states that the design and writing of the code should be done in a way that new functionality should be added with minimum changes in the existing code.
+     */
     public abstract class Employee
     {
         public string Id { get; set; }
